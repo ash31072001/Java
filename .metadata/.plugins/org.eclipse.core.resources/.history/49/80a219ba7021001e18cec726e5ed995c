@@ -1,0 +1,33 @@
+// taking input from the user using buffered class :
+
+package com.practice.Prep;
+import java.io.BufferedReader; 
+import java.io.IOException;
+
+import java.io.InputStreamReader;
+
+public class InputBufferedReader {
+
+	public static void main(String[] args)throws IOException{
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		String name = reader.readLine();
+		System.out.println(name);
+
+	}
+
+}
+// taking input from the System.console()
+
+/*String name = System.console().readLine();
+ * System.out.println(name);
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * */
+ */

@@ -1,0 +1,17 @@
+package com.practice.Prep;
+
+public class SumInRange {
+
+	public static void main(String[] args) {
+		int num1 = 10;
+		int num2 = 20;
+		int sum = 0;
+		for(int i = num1 ; i<=num2 ; i++) {
+			sum += i;
+;			
+		}
+		System.out.println("The sum of the numbers within the range of "+num1+ " and " +num2+ " is " +sum );
+
+	}
+
+}
